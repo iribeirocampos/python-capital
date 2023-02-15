@@ -1,5 +1,5 @@
 =================================
-Welcome to python-capital.com v0.1.0
+Welcome to python-capital v0.1.0
 =================================
 
 Updated 14th Feb 2023
