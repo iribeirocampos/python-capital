@@ -16,7 +16,7 @@ Source code
   https://github.com/iribeirocampos/python-capital
 
 Documentation
-  https://github.com/iribeirocampos/python-capital/tree/main/doc
+  https://github.com/iribeirocampos/python-capital/tree/main/docs
 
 
 Features
