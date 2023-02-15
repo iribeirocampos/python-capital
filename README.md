@@ -12,7 +12,10 @@ If you want to automate interactions with Capital.com stick around.
 
 
 Source code
-  https://github.com/
+  https://github.com/iribeirocampos/python-capital
+
+Documentation
+  https://github.com/iribeirocampos/python-capital/tree/main/doc
 
 
 Features
