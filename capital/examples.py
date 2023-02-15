@@ -1,8 +1,6 @@
-from capital.capital import Client
+from .capital import Client
 
-client = Client(
-    "username", "api_key", "api_password", demo=True
-)
+client = Client("username", "api_key", "api_password", demo=True)
 
 account = client.all_accounts()["accounts"]
 
