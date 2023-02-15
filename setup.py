@@ -4,7 +4,7 @@ import os
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
+with codecs.open(os.path.join(here, "README.rst"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 VERSION = "0.1.0"
@@ -13,7 +13,7 @@ LONG_DESCRIPTION = "A package that allows to make API calls to capital.com."
 
 # Setting up
 setup(
-    name="capital",
+    name="python-capital",
     version=VERSION,
     author="Iuri Campos",
     # author_email="<mail@neuralnine.com>",

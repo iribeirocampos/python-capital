@@ -7,7 +7,7 @@ Updated 14th Feb 2023
 
 This is an unofficial Python wrapper for the `Capital.com Public API v1 <https://open-api.capital.com/>`_. I am in no way affiliated with Capital.com, use at your own risk.
 
-If you came here looking for the `Capital.com exchange <https://capital.com/>`_ to invest in CFDs, then `go here <https://capital.com/>`_.
+If you came here looking for the [Capital.com](https://capital.com/) exchange  to invest in CFDs, then [go here](https://capital.com/).
 If you want to automate interactions with Capital.com stick around.
 
 
@@ -29,19 +29,19 @@ Features
 Quick Start
 -----------
 
-`Register an account with Capital.com <https://capital.com/>`_.
+[Register an account with Capital.com](https://capital.com/).
 
-`Generate an API Key <https://capital.com/trading/platform/?popup=settings&tab=APISettings>`_.
+[Generate an API Key](https://capital.com/trading/platform/?popup=settings&tab=APISettings).
 
-To use the `Demo accounts, pass `demo=True` when creating the client, default is set to False.
+To use the `Demo accounts, pass` demo=True when creating the client, default is set to False.
 
 
-.. code:: bash
+```bash
 
     pip install python-capital.com
+```
 
-
-.. code:: python
+``` python
 
     from capital.capital_api import Client
     
@@ -55,13 +55,5 @@ To use the `Demo accounts, pass `demo=True` when creating the client, default is
 
     # to close a position
     close = client.close_position(deal_id)
-
-
-Donate
-------
-
-If this library helped you out feel free to donate.
-
-- ETH: 0x16b86e034d544bc2e7d5f985fb079d7a7f206471
-- BTC: 14iP5aKTJuCCZicUSvLVP3fUKK7awJW1hL
+```
 
