@@ -46,7 +46,7 @@ To use the `Demo accounts, pass `demo=True` when creating the client, default is
 
 .. code:: python
 
-    from capital.capital_api import Client
+    from capital.capital import Client
     
     client = Client(username, api_key, api_password)
 
