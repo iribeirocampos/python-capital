@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.envs.default]
+path = ".venv"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/python-capital"]
+
+[project]
+name = "python-capital"
+version = "0.2.0"
+description = "A simple wrapper for capital.com exchange API"
+authors = [{ name = "Iuri Campos", email = "iuri.campos@tecnico.ulisboa.pt" }]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = ["requests>=2.25.1", "pycryptodome"]
+
+[project.urls]
+"Homepage" = "https://github.com/iribeirocampos/python-capital"
+"Bug Tracker" = "https://github.com/iribeirocampos/python-capital/issues"

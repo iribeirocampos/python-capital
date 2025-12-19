@@ -1,23 +1,16 @@
 =================================
-Welcome to python-capital v0.1.0
+Welcome to python-capital.com v0.2.0
 =================================
 
-Updated 14th Feb 2023
-
+_Updated 19th dec 2025_
 
 This is an unofficial Python wrapper for the `Capital.com Public API v1 <https://open-api.capital.com/>`_. I am in no way affiliated with Capital.com, use at your own risk.
 
-If you came here looking for the `Capital.com exchange <https://capital.com/>`_ to invest in CFDs, then `go here <https://capital.com/>`_.
-If you want to automate interactions with Capital.com stick around.
+If you came here looking for the `Capital.com exchange <https://capital.com/>`_ to invest in CFDs, then `go here <https://capital.com/>`_.  
+If you want to automate interactions with Capital.com, stick around.
 
-
-
-Source code
-  https://github.com/iribeirocampos/python-capital
-
-Documentation
-  https://github.com/iribeirocampos/python-capital/tree/main/docs
-
+**Source code:**  
+https://github.com/
 
 Features
 --------
@@ -36,7 +29,7 @@ Quick Start
 
 `Generate an API Key <https://capital.com/trading/platform/?popup=settings&tab=APISettings>`_.
 
-To use the `Demo accounts, pass `demo=True` when creating the client, default is set to False.
+To use the Demo accounts, pass `demo=True` when creating the client (default is set to False).
 
 
 .. code:: bash
@@ -46,11 +39,11 @@ To use the `Demo accounts, pass `demo=True` when creating the client, default is
 
 .. code:: python
 
-    from capital.capital import Client
-    
+    from capital.client import Client
+
     client = Client(username, api_key, api_password)
 
-    # get all open possitions
+    # get all open positions
     positions = client.all_positions()
 
     # to create a position
