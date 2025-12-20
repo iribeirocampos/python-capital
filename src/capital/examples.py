@@ -1,4 +1,4 @@
-from .client import Client
+from capital.client import Client
 
 client = Client("username", "api_key", "api_password", demo=True)
 

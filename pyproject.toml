@@ -6,11 +6,11 @@ build-backend = "hatchling.build"
 path = ".venv"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/python-capital"]
+packages = ["src/capital"]
 
 [project]
 name = "python-capital"
-version = "0.2.0"
+version = "0.2.2"
 description = "A simple wrapper for capital.com exchange API"
 authors = [{ name = "Iuri Campos", email = "iuri.campos@tecnico.ulisboa.pt" }]
 readme = "README.md"
