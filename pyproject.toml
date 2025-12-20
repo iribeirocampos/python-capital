@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 path = ".venv"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/python-capital"]
+packages = ["src/capital"]
 
 [project]
 name = "python-capital"
