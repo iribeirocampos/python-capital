@@ -1,6 +1,5 @@
-# Welcome to python-capital v0.2.0
+# Welcome to python-capital
 
-_Updated 19th Dec 2025_
 
 This is an unofficial Python wrapper for the [Capital.com Public API v1](https://open-api.capital.com/).  
 I am in no way affiliated with Capital.com, use at your own risk.
